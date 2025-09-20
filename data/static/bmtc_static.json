@@ -1,0 +1,138 @@
+{
+  "agency": {
+    "agency_id": "BMTC",
+    "agency_name": "Bangalore Metropolitan Transport Corporation",
+    "agency_url": "https://www.mybmtc.com",
+    "agency_timezone": "Asia/Kolkata"
+  },
+  "routes": [
+    {
+      "route_id": "335E",
+      "route_short_name": "335E",
+      "route_long_name": "Kempegowda Bus Station - Electronic City",
+      "route_type": 3,
+      "route_color": "FF6B35",
+      "route_text_color": "FFFFFF"
+    },
+    {
+      "route_id": "500K",
+      "route_short_name": "500K",
+      "route_long_name": "Kempegowda Bus Station - Kengeri",
+      "route_type": 3,
+      "route_color": "1E88E5",
+      "route_text_color": "FFFFFF"
+    },
+    {
+      "route_id": "201",
+      "route_short_name": "201",
+      "route_long_name": "Shivajinagar - Banashankari",
+      "route_type": 3,
+      "route_color": "4CAF50",
+      "route_text_color": "FFFFFF"
+    }
+  ],
+  "stops": [
+    {
+      "stop_id": "BMTC_001",
+      "stop_name": "Kempegowda Bus Station",
+      "stop_lat": 12.9767,
+      "stop_lon": 77.5710,
+      "zone_id": "Central"
+    },
+    {
+      "stop_id": "BMTC_002",
+      "stop_name": "Electronic City",
+      "stop_lat": 12.8456,
+      "stop_lon": 77.6603,
+      "zone_id": "South"
+    },
+    {
+      "stop_id": "BMTC_003",
+      "stop_name": "Silk Board",
+      "stop_lat": 12.9177,
+      "stop_lon": 77.6226,
+      "zone_id": "South"
+    },
+    {
+      "stop_id": "BMTC_004",
+      "stop_name": "Banashankari",
+      "stop_lat": 12.9249,
+      "stop_lon": 77.5571,
+      "zone_id": "South"
+    },
+    {
+      "stop_id": "BMTC_005",
+      "stop_name": "Shivajinagar",
+      "stop_lat": 12.9899,
+      "stop_lon": 77.6006,
+      "zone_id": "Central"
+    },
+    {
+      "stop_id": "BMTC_006",
+      "stop_name": "Kengeri",
+      "stop_lat": 12.9081,
+      "stop_lon": 77.4851,
+      "zone_id": "West"
+    }
+  ],
+  "stop_times": [
+    {
+      "trip_id": "335E_001",
+      "arrival_time": "06:00:00",
+      "departure_time": "06:00:00",
+      "stop_id": "BMTC_001",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": "335E_001",
+      "arrival_time": "06:45:00",
+      "departure_time": "06:45:00",
+      "stop_id": "BMTC_003",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": "335E_001",
+      "arrival_time": "07:15:00",
+      "departure_time": "07:15:00",
+      "stop_id": "BMTC_002",
+      "stop_sequence": 3
+    }
+  ],
+  "trips": [
+    {
+      "route_id": "335E",
+      "service_id": "weekday",
+      "trip_id": "335E_001",
+      "trip_headsign": "Electronic City",
+      "direction_id": 0
+    },
+    {
+      "route_id": "500K",
+      "service_id": "weekday",
+      "trip_id": "500K_001",
+      "trip_headsign": "Kengeri",
+      "direction_id": 0
+    },
+    {
+      "route_id": "201",
+      "service_id": "weekday",
+      "trip_id": "201_001",
+      "trip_headsign": "Banashankari",
+      "direction_id": 0
+    }
+  ],
+  "calendar": [
+    {
+      "service_id": "weekday",
+      "monday": 1,
+      "tuesday": 1,
+      "wednesday": 1,
+      "thursday": 1,
+      "friday": 1,
+      "saturday": 1,
+      "sunday": 0,
+      "start_date": "20240101",
+      "end_date": "20241231"
+    }
+  ]
+}

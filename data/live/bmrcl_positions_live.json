@@ -1,0 +1,156 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1758365910
+  },
+  "entity": [
+    {
+      "id": "bmrcl_train_purple_1",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365910_0",
+          "route_id": "purple",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.94327859387545,
+          "longitude": 77.59244250391127,
+          "bearing": 171.90506055615222,
+          "speed": 39.85780187344347
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_PURPLE_001",
+        "occupancy_status": "MANY_SEATS_AVAILABLE",
+        "current_station": "MG Road",
+        "next_station": "Magadi Road"
+      }
+    },
+    {
+      "id": "bmrcl_train_purple_2",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365910_1",
+          "route_id": "purple",
+          "direction_id": 1
+        },
+        "position": {
+          "latitude": 13.008527161936366,
+          "longitude": 77.64338697674535,
+          "bearing": 4.147426727821069,
+          "speed": 64.58776214329282
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_PURPLE_002",
+        "occupancy_status": "MANY_SEATS_AVAILABLE",
+        "current_station": "Baiyyappanahalli",
+        "next_station": "Challaghatta"
+      }
+    },
+    {
+      "id": "bmrcl_train_purple_3",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365910_2",
+          "route_id": "purple",
+          "direction_id": 1
+        },
+        "position": {
+          "latitude": 12.975007329241643,
+          "longitude": 77.63141048947334,
+          "bearing": 235.139369593127,
+          "speed": 26.027818627448525
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_PURPLE_003",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "Kadugodi",
+        "next_station": "Attiguppe"
+      }
+    },
+    {
+      "id": "bmrcl_train_purple_4",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365910_3",
+          "route_id": "purple",
+          "direction_id": 1
+        },
+        "position": {
+          "latitude": 12.93108289830132,
+          "longitude": 77.5993073380739,
+          "bearing": 103.45169578647302,
+          "speed": 32.05025839216397
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_PURPLE_004",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "Sir M Visvesvaraya Station",
+        "next_station": "Rajarajeshwari Nagar"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_5",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365910_0",
+          "route_id": "green",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.981382762173975,
+          "longitude": 77.63325218677834,
+          "bearing": 216.9967380253882,
+          "speed": 28.064689821803455
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_GREEN_005",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "Srirampura",
+        "next_station": "South End Circle"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_6",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365910_1",
+          "route_id": "green",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.965506350192305,
+          "longitude": 77.59880901870399,
+          "bearing": 240.11521539478932,
+          "speed": 40.157253162465594
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_GREEN_006",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "National College",
+        "next_station": "Peenya"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_7",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365910_2",
+          "route_id": "green",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 13.00501572313124,
+          "longitude": 77.57398798282115,
+          "bearing": 222.20596234323267,
+          "speed": 64.32355240323682
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "BMRCL_GREEN_007",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "Yelachenahalli",
+        "next_station": "Jalahalli"
+      }
+    }
+  ]
+}

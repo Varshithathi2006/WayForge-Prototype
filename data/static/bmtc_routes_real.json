@@ -1,0 +1,33 @@
+{
+  "timestamp": 1758365639,
+  "routes": [
+    {
+      "route_id": "201",
+      "route_short_name": "201",
+      "route_long_name": "Shivajinagar - Electronic City",
+      "route_type": "ordinary",
+      "agency_id": "BMTC"
+    },
+    {
+      "route_id": "500K",
+      "route_short_name": "500K",
+      "route_long_name": "Kempegowda Bus Station - Whitefield",
+      "route_type": "deluxe",
+      "agency_id": "BMTC"
+    },
+    {
+      "route_id": "V500C",
+      "route_short_name": "V500C",
+      "route_long_name": "Kempegowda Bus Station - Airport",
+      "route_type": "vajra",
+      "agency_id": "BMTC"
+    },
+    {
+      "route_id": "AS1",
+      "route_short_name": "AS1",
+      "route_long_name": "Banashankari - Hebbal",
+      "route_type": "ac",
+      "agency_id": "BMTC"
+    }
+  ]
+}

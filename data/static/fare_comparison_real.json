@@ -1,0 +1,495 @@
+{
+  "timestamp": 1758365639,
+  "comparison_type": "fare_analysis",
+  "currency": "INR",
+  "routes": [
+    {
+      "distance_km": 2,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 2,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 2.0,
+          "total_fare": 7,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 2,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 3.0,
+          "total_fare": 11,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 2,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 4.0,
+          "total_fare": 19,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 2,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 6.0,
+          "total_fare": 31,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 2,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 15,
+          "total_fare": 15,
+          "currency": "INR",
+          "fare_slab": "2.0 km"
+        },
+        "smart_card": {
+          "distance_km": 2,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 15,
+          "total_fare": 14,
+          "currency": "INR",
+          "fare_slab": "2.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 5,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 5,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 5.0,
+          "total_fare": 10,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 5,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 7.5,
+          "total_fare": 16,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 5,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 10.0,
+          "total_fare": 25,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 5,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 15.0,
+          "total_fare": 40,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 5,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 20,
+          "total_fare": 20,
+          "currency": "INR",
+          "fare_slab": "5.0 km"
+        },
+        "smart_card": {
+          "distance_km": 5,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 20,
+          "total_fare": 19,
+          "currency": "INR",
+          "fare_slab": "5.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 8,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 8,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 8.0,
+          "total_fare": 13,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 8,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 12.0,
+          "total_fare": 20,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 8,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 16.0,
+          "total_fare": 31,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 8,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 24.0,
+          "total_fare": 49,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 8,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 25,
+          "total_fare": 25,
+          "currency": "INR",
+          "fare_slab": "8.0 km"
+        },
+        "smart_card": {
+          "distance_km": 8,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 25,
+          "total_fare": 24,
+          "currency": "INR",
+          "fare_slab": "8.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 12,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 12,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 12.0,
+          "total_fare": 17,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 12,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 18.0,
+          "total_fare": 26,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 12,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 24.0,
+          "total_fare": 39,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 12,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 36.0,
+          "total_fare": 61,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 12,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 30,
+          "total_fare": 30,
+          "currency": "INR",
+          "fare_slab": "12.0 km"
+        },
+        "smart_card": {
+          "distance_km": 12,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 30,
+          "total_fare": 28,
+          "currency": "INR",
+          "fare_slab": "12.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 15,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 15,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 15.0,
+          "total_fare": 20,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 15,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 22.5,
+          "total_fare": 30,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 15,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 30.0,
+          "total_fare": 45,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 15,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 45.0,
+          "total_fare": 70,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 15,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 30,
+          "total_fare": 30,
+          "currency": "INR",
+          "fare_slab": "15.0 km"
+        },
+        "smart_card": {
+          "distance_km": 15,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 30,
+          "total_fare": 28,
+          "currency": "INR",
+          "fare_slab": "15.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 20,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 20,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 20.0,
+          "total_fare": 25,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 20,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 30.0,
+          "total_fare": 38,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 20,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 40.0,
+          "total_fare": 55,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 20,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 60.0,
+          "total_fare": 85,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 20,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 40,
+          "total_fare": 40,
+          "currency": "INR",
+          "fare_slab": "20.0 km"
+        },
+        "smart_card": {
+          "distance_km": 20,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 40,
+          "total_fare": 38,
+          "currency": "INR",
+          "fare_slab": "20.0 km"
+        }
+      }
+    },
+    {
+      "distance_km": 25,
+      "bmtc": {
+        "ordinary": {
+          "distance_km": 25,
+          "bus_type": "ordinary",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 5.0,
+          "distance_fare": 25.0,
+          "total_fare": 30,
+          "currency": "INR"
+        },
+        "deluxe": {
+          "distance_km": 25,
+          "bus_type": "deluxe",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 8.0,
+          "distance_fare": 37.5,
+          "total_fare": 46,
+          "currency": "INR"
+        },
+        "ac": {
+          "distance_km": 25,
+          "bus_type": "ac",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 15.0,
+          "distance_fare": 50.0,
+          "total_fare": 65,
+          "currency": "INR"
+        },
+        "vajra": {
+          "distance_km": 25,
+          "bus_type": "vajra",
+          "passenger_type": "adult",
+          "timestamp": 1758365639,
+          "base_fare": 25.0,
+          "distance_fare": 75.0,
+          "total_fare": 100,
+          "currency": "INR"
+        }
+      },
+      "bmrcl": {
+        "token": {
+          "distance_km": 25,
+          "payment_method": "token",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "base_fare_per_person": 45,
+          "total_fare": 45,
+          "currency": "INR",
+          "fare_slab": "25.0 km"
+        },
+        "smart_card": {
+          "distance_km": 25,
+          "payment_method": "smart_card",
+          "group_size": 1,
+          "timestamp": 1758365639,
+          "smart_card_discount": "5.0%",
+          "base_fare_per_person": 45,
+          "total_fare": 43,
+          "currency": "INR",
+          "fare_slab": "25.0 km"
+        }
+      }
+    }
+  ],
+  "insights": {
+    "bmtc_range": "Rs 5-70+ (depending on distance and bus type)",
+    "bmrcl_range": "Rs 10-60 (distance-based slabs)",
+    "cost_effective_short": "BMTC ordinary buses for <3km",
+    "cost_effective_long": "BMRCL metro for >10km",
+    "notes": [
+      "BMTC fares increased in January 2024",
+      "BMRCL offers 5% smart card discount",
+      "Metro is generally faster for longer distances",
+      "Bus network has better coverage"
+    ]
+  }
+}

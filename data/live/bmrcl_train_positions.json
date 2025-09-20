@@ -1,0 +1,59 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1704067200
+  },
+  "entity": [
+    {
+      "id": "train_purple_001",
+      "vehicle": {
+        "trip": {
+          "trip_id": "PURPLE_001",
+          "route_id": "PURPLE_LINE"
+        },
+        "vehicle": {
+          "id": "BMRCL_TRAIN_001",
+          "label": "Purple Line"
+        },
+        "position": {
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "bearing": 90.0,
+          "speed": 45.0
+        },
+        "current_stop_sequence": 3,
+        "stop_id": "BMRCL_003",
+        "current_status": "STOPPED_AT",
+        "timestamp": 1704067200,
+        "congestion_level": "RUNNING_SMOOTHLY",
+        "occupancy_status": "MANY_SEATS_AVAILABLE"
+      }
+    },
+    {
+      "id": "train_green_001",
+      "vehicle": {
+        "trip": {
+          "trip_id": "GREEN_001",
+          "route_id": "GREEN_LINE"
+        },
+        "vehicle": {
+          "id": "BMRCL_TRAIN_002",
+          "label": "Green Line"
+        },
+        "position": {
+          "latitude": 13.0200,
+          "longitude": 77.5100,
+          "bearing": 180.0,
+          "speed": 50.0
+        },
+        "current_stop_sequence": 2,
+        "stop_id": "BMRCL_007",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1704067200,
+        "congestion_level": "RUNNING_SMOOTHLY",
+        "occupancy_status": "FEW_SEATS_AVAILABLE"
+      }
+    }
+  ]
+}

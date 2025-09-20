@@ -1,0 +1,915 @@
+{
+  "timestamp": 1758365639,
+  "stations": [
+    {
+      "station_id": "bmrcl_001",
+      "station_name": "Whitefield",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 1,
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_002",
+      "station_name": "Kadugodi",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 2,
+      "latitude": 12.9816,
+      "longitude": 77.6046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_003",
+      "station_name": "Pattandur Agrahara",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 3,
+      "latitude": 12.9916,
+      "longitude": 77.6146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_004",
+      "station_name": "Channasandra",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 4,
+      "latitude": 13.0016,
+      "longitude": 77.6246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_005",
+      "station_name": "Hoodi",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 5,
+      "latitude": 13.0116,
+      "longitude": 77.6346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_006",
+      "station_name": "Garudacharpalya",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 6,
+      "latitude": 13.021600000000001,
+      "longitude": 77.6446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_007",
+      "station_name": "Singayyanapalya",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 7,
+      "latitude": 13.031600000000001,
+      "longitude": 77.6546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_008",
+      "station_name": "KR Puram",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 8,
+      "latitude": 13.0416,
+      "longitude": 77.6646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_009",
+      "station_name": "Benniganahalli",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 9,
+      "latitude": 13.0516,
+      "longitude": 77.6746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_010",
+      "station_name": "Baiyyappanahalli",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 10,
+      "latitude": 13.0616,
+      "longitude": 77.6846,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_011",
+      "station_name": "Swami Vivekananda Road",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 11,
+      "latitude": 13.0716,
+      "longitude": 77.6946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_012",
+      "station_name": "Indiranagar",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 12,
+      "latitude": 13.0816,
+      "longitude": 77.7046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_013",
+      "station_name": "Halasuru",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 13,
+      "latitude": 13.0916,
+      "longitude": 77.7146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_014",
+      "station_name": "Trinity",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 14,
+      "latitude": 13.101600000000001,
+      "longitude": 77.7246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_015",
+      "station_name": "MG Road",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 15,
+      "latitude": 13.111600000000001,
+      "longitude": 77.7346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_016",
+      "station_name": "Cubbon Park",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 16,
+      "latitude": 13.1216,
+      "longitude": 77.7446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_017",
+      "station_name": "Vidhana Soudha",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 17,
+      "latitude": 13.1316,
+      "longitude": 77.7546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_018",
+      "station_name": "Sir M Visvesvaraya Station",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 18,
+      "latitude": 13.1416,
+      "longitude": 77.7646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_019",
+      "station_name": "Majestic",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 19,
+      "latitude": 13.1516,
+      "longitude": 77.7746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_020",
+      "station_name": "City Railway Station",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 20,
+      "latitude": 13.1616,
+      "longitude": 77.7846,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_021",
+      "station_name": "Magadi Road",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 21,
+      "latitude": 13.1716,
+      "longitude": 77.7946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_022",
+      "station_name": "Hosahalli",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 22,
+      "latitude": 13.181600000000001,
+      "longitude": 77.8046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_023",
+      "station_name": "Vijayanagar",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 23,
+      "latitude": 13.191600000000001,
+      "longitude": 77.8146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_024",
+      "station_name": "Attiguppe",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 24,
+      "latitude": 13.201600000000001,
+      "longitude": 77.8246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_025",
+      "station_name": "Deepanjali Nagar",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 25,
+      "latitude": 13.2116,
+      "longitude": 77.8346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_026",
+      "station_name": "Mysuru Road",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 26,
+      "latitude": 13.2216,
+      "longitude": 77.8446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_027",
+      "station_name": "Nayandahalli",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 27,
+      "latitude": 13.2316,
+      "longitude": 77.8546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_028",
+      "station_name": "Rajarajeshwari Nagar",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 28,
+      "latitude": 13.2416,
+      "longitude": 77.8646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_029",
+      "station_name": "Jnanabharathi",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 29,
+      "latitude": 13.2516,
+      "longitude": 77.8746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_030",
+      "station_name": "Pattanagere",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 30,
+      "latitude": 13.2616,
+      "longitude": 77.8846,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_031",
+      "station_name": "Kengeri Bus Terminal",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 31,
+      "latitude": 13.271600000000001,
+      "longitude": 77.8946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_032",
+      "station_name": "Kengeri",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 32,
+      "latitude": 13.281600000000001,
+      "longitude": 77.9046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_033",
+      "station_name": "Challaghatta",
+      "line_id": "purple",
+      "line_name": "Purple Line",
+      "sequence": 33,
+      "latitude": 13.2916,
+      "longitude": 77.9146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_034",
+      "station_name": "Nagasandra",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 1,
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_035",
+      "station_name": "Dasarahalli",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 2,
+      "latitude": 12.9816,
+      "longitude": 77.6046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_036",
+      "station_name": "Jalahalli",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 3,
+      "latitude": 12.9916,
+      "longitude": 77.6146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_037",
+      "station_name": "Peenya Industry",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 4,
+      "latitude": 13.0016,
+      "longitude": 77.6246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_038",
+      "station_name": "Peenya",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 5,
+      "latitude": 13.0116,
+      "longitude": 77.6346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_039",
+      "station_name": "Goraguntepalya",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 6,
+      "latitude": 13.021600000000001,
+      "longitude": 77.6446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_040",
+      "station_name": "Yeshwantpur",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 7,
+      "latitude": 13.031600000000001,
+      "longitude": 77.6546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_041",
+      "station_name": "Sandal Soap Factory",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 8,
+      "latitude": 13.0416,
+      "longitude": 77.6646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_042",
+      "station_name": "Mahalakshmi",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 9,
+      "latitude": 13.0516,
+      "longitude": 77.6746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_043",
+      "station_name": "Rajajinagar",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 10,
+      "latitude": 13.0616,
+      "longitude": 77.6846,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_044",
+      "station_name": "Kuvempu Road",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 11,
+      "latitude": 13.0716,
+      "longitude": 77.6946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_045",
+      "station_name": "Srirampura",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 12,
+      "latitude": 13.0816,
+      "longitude": 77.7046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_046",
+      "station_name": "Sampige Road",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 13,
+      "latitude": 13.0916,
+      "longitude": 77.7146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_047",
+      "station_name": "Majestic",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 14,
+      "latitude": 13.101600000000001,
+      "longitude": 77.7246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_048",
+      "station_name": "Chickpet",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 15,
+      "latitude": 13.111600000000001,
+      "longitude": 77.7346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_049",
+      "station_name": "KR Market",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 16,
+      "latitude": 13.1216,
+      "longitude": 77.7446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_050",
+      "station_name": "National College",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 17,
+      "latitude": 13.1316,
+      "longitude": 77.7546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_051",
+      "station_name": "Lalbagh",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 18,
+      "latitude": 13.1416,
+      "longitude": 77.7646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_052",
+      "station_name": "South End Circle",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 19,
+      "latitude": 13.1516,
+      "longitude": 77.7746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_053",
+      "station_name": "Jayanagar",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 20,
+      "latitude": 13.1616,
+      "longitude": 77.7846,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_054",
+      "station_name": "Rashtreeya Vidyalaya Road",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 21,
+      "latitude": 13.1716,
+      "longitude": 77.7946,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_055",
+      "station_name": "Banashankari",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 22,
+      "latitude": 13.181600000000001,
+      "longitude": 77.8046,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_056",
+      "station_name": "Jayaprakash Nagar",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 23,
+      "latitude": 13.191600000000001,
+      "longitude": 77.8146,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_057",
+      "station_name": "Yelachenahalli",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 24,
+      "latitude": 13.201600000000001,
+      "longitude": 77.8246,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_058",
+      "station_name": "Konanakunte Cross",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 25,
+      "latitude": 13.2116,
+      "longitude": 77.8346,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_059",
+      "station_name": "Doddakallasandra",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 26,
+      "latitude": 13.2216,
+      "longitude": 77.8446,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_060",
+      "station_name": "Vajarahalli",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 27,
+      "latitude": 13.2316,
+      "longitude": 77.8546,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    },
+    {
+      "station_id": "bmrcl_061",
+      "station_name": "Thalaghattapura",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 28,
+      "latitude": 13.2416,
+      "longitude": 77.8646,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "parking",
+        "restroom",
+        "elevator"
+      ]
+    },
+    {
+      "station_id": "bmrcl_062",
+      "station_name": "Silk Institute",
+      "line_id": "green",
+      "line_name": "Green Line",
+      "sequence": 29,
+      "latitude": 13.2516,
+      "longitude": 77.8746,
+      "zone": "1",
+      "accessibility": true,
+      "facilities": [
+        "restroom"
+      ]
+    }
+  ]
+}

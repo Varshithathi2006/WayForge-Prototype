@@ -1,0 +1,117 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1758365910
+  },
+  "entity": [
+    {
+      "id": "bmtc_bus_201_1",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_201_1758365910",
+          "route_id": "201"
+        },
+        "position": {
+          "latitude": 12.981726326898698,
+          "longitude": 77.57554358298357,
+          "bearing": 291.0614242843606,
+          "speed": 20.797026325907755
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1000",
+        "occupancy_status": "MANY_SEATS_AVAILABLE"
+      }
+    },
+    {
+      "id": "bmtc_bus_500K_2",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_500K_1758365910",
+          "route_id": "500K"
+        },
+        "position": {
+          "latitude": 12.875162690033315,
+          "longitude": 77.55684711110362,
+          "bearing": 281.31665694428506,
+          "speed": 16.0492337466002
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1001",
+        "occupancy_status": "STANDING_ROOM_ONLY"
+      }
+    },
+    {
+      "id": "bmtc_bus_V500C_3",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_V500C_1758365910",
+          "route_id": "V500C"
+        },
+        "position": {
+          "latitude": 12.982365182033556,
+          "longitude": 77.56683596808277,
+          "bearing": 164.33430265312882,
+          "speed": 48.84713375528818
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1002",
+        "occupancy_status": "FEW_SEATS_AVAILABLE"
+      }
+    },
+    {
+      "id": "bmtc_bus_AS1_4",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_AS1_1758365910",
+          "route_id": "AS1"
+        },
+        "position": {
+          "latitude": 13.043140842210443,
+          "longitude": 77.68263230455356,
+          "bearing": 0.36837220510602897,
+          "speed": 23.81702386056876
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1003",
+        "occupancy_status": "FEW_SEATS_AVAILABLE"
+      }
+    },
+    {
+      "id": "bmtc_bus_G4_5",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_G4_1758365910",
+          "route_id": "G4"
+        },
+        "position": {
+          "latitude": 13.064278839501002,
+          "longitude": 77.66157431266524,
+          "bearing": 241.3843482100561,
+          "speed": 39.4907309357598
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1004",
+        "occupancy_status": "FEW_SEATS_AVAILABLE"
+      }
+    },
+    {
+      "id": "bmtc_bus_356E_6",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_356E_1758365910",
+          "route_id": "356E"
+        },
+        "position": {
+          "latitude": 13.026891640024818,
+          "longitude": 77.50182879032603,
+          "bearing": 11.229139272711146,
+          "speed": 43.25432324696789
+        },
+        "timestamp": 1758365910,
+        "vehicle_id": "KA01F1005",
+        "occupancy_status": "MANY_SEATS_AVAILABLE"
+      }
+    }
+  ]
+}

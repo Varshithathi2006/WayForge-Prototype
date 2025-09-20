@@ -1,0 +1,56 @@
+{
+  "agency": "BMTC",
+  "currency": "INR",
+  "last_updated": "2024-01-15",
+  "fare_rules": {
+    "ordinary": {
+      "base_fare": 5.0,
+      "per_km_rate": 1.0,
+      "description": "Regular city buses"
+    },
+    "deluxe": {
+      "base_fare": 8.0,
+      "per_km_rate": 1.5,
+      "description": "Comfortable seating, better amenities"
+    },
+    "ac": {
+      "base_fare": 15.0,
+      "per_km_rate": 2.0,
+      "description": "Air conditioned buses"
+    },
+    "vajra": {
+      "base_fare": 25.0,
+      "per_km_rate": 3.0,
+      "description": "Premium airport and express services"
+    }
+  },
+  "passes": {
+    "daily": {
+      "price": 80.0,
+      "validity": "24 hours",
+      "description": "Unlimited travel on ordinary buses"
+    },
+    "monthly": {
+      "price": 1200.0,
+      "validity": "30 days",
+      "description": "Unlimited travel on ordinary buses"
+    }
+  },
+  "discounts": {
+    "student": {
+      "percentage": 50,
+      "description": "50% discount for students with valid ID"
+    },
+    "senior_citizen": {
+      "percentage": 50,
+      "description": "50% discount for senior citizens (60+)"
+    }
+  },
+  "notes": [
+    "Fares increased effective January 15, 2024",
+    "AC bus minimum fare increased from Rs 10 to Rs 15",
+    "Daily pass increased from Rs 70 to Rs 80",
+    "Monthly pass increased from Rs 1050 to Rs 1200",
+    "Diesel price increase cited as reason for fare hike"
+  ]
+}

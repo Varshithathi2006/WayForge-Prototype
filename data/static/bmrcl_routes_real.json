@@ -1,0 +1,31 @@
+{
+  "timestamp": 1758365639,
+  "agency": {
+    "agency_id": "BMRCL",
+    "agency_name": "Bangalore Metro Rail Corporation Limited",
+    "agency_url": "https://english.bmrc.co.in",
+    "agency_timezone": "Asia/Kolkata"
+  },
+  "routes": [
+    {
+      "route_id": "purple",
+      "route_short_name": "Purple Line",
+      "route_long_name": "Namma Metro Purple Line",
+      "route_type": 1,
+      "route_color": "#800080",
+      "agency_id": "BMRCL",
+      "stations_count": 33,
+      "operational_status": "active"
+    },
+    {
+      "route_id": "green",
+      "route_short_name": "Green Line",
+      "route_long_name": "Namma Metro Green Line",
+      "route_type": 1,
+      "route_color": "#008000",
+      "agency_id": "BMRCL",
+      "stations_count": 29,
+      "operational_status": "active"
+    }
+  ]
+}

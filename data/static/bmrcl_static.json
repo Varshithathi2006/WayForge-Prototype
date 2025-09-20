@@ -1,0 +1,158 @@
+{
+  "agency": {
+    "agency_id": "BMRCL",
+    "agency_name": "Bangalore Metro Rail Corporation Limited",
+    "agency_url": "https://www.bmrc.co.in",
+    "agency_timezone": "Asia/Kolkata"
+  },
+  "routes": [
+    {
+      "route_id": "PURPLE_LINE",
+      "route_short_name": "Purple Line",
+      "route_long_name": "Mysuru Road - Whitefield",
+      "route_type": 1,
+      "route_color": "800080",
+      "route_text_color": "FFFFFF"
+    },
+    {
+      "route_id": "GREEN_LINE",
+      "route_short_name": "Green Line",
+      "route_long_name": "Nagasandra - Silk Institute",
+      "route_type": 1,
+      "route_color": "008000",
+      "route_text_color": "FFFFFF"
+    }
+  ],
+  "stops": [
+    {
+      "stop_id": "BMRCL_001",
+      "stop_name": "Mysuru Road",
+      "stop_lat": 12.9539,
+      "stop_lon": 77.5422,
+      "zone_id": "West"
+    },
+    {
+      "stop_id": "BMRCL_002",
+      "stop_name": "Majestic",
+      "stop_lat": 12.9767,
+      "stop_lon": 77.5710,
+      "zone_id": "Central"
+    },
+    {
+      "stop_id": "BMRCL_003",
+      "stop_name": "Cubbon Park",
+      "stop_lat": 12.9716,
+      "stop_lon": 77.5946,
+      "zone_id": "Central"
+    },
+    {
+      "stop_id": "BMRCL_004",
+      "stop_name": "MG Road",
+      "stop_lat": 12.9759,
+      "stop_lon": 77.6069,
+      "zone_id": "Central"
+    },
+    {
+      "stop_id": "BMRCL_005",
+      "stop_name": "Indiranagar",
+      "stop_lat": 12.9719,
+      "stop_lon": 77.6412,
+      "zone_id": "East"
+    },
+    {
+      "stop_id": "BMRCL_006",
+      "stop_name": "Whitefield",
+      "stop_lat": 12.9698,
+      "stop_lon": 77.7500,
+      "zone_id": "East"
+    },
+    {
+      "stop_id": "BMRCL_007",
+      "stop_name": "Nagasandra",
+      "stop_lat": 13.0358,
+      "stop_lon": 77.5022,
+      "zone_id": "North"
+    },
+    {
+      "stop_id": "BMRCL_008",
+      "stop_name": "Silk Institute",
+      "stop_lat": 12.8456,
+      "stop_lon": 77.6603,
+      "zone_id": "South"
+    }
+  ],
+  "stop_times": [
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:00:00",
+      "departure_time": "06:00:00",
+      "stop_id": "BMRCL_001",
+      "stop_sequence": 1
+    },
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:05:00",
+      "departure_time": "06:05:00",
+      "stop_id": "BMRCL_002",
+      "stop_sequence": 2
+    },
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:08:00",
+      "departure_time": "06:08:00",
+      "stop_id": "BMRCL_003",
+      "stop_sequence": 3
+    },
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:12:00",
+      "departure_time": "06:12:00",
+      "stop_id": "BMRCL_004",
+      "stop_sequence": 4
+    },
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:18:00",
+      "departure_time": "06:18:00",
+      "stop_id": "BMRCL_005",
+      "stop_sequence": 5
+    },
+    {
+      "trip_id": "PURPLE_001",
+      "arrival_time": "06:45:00",
+      "departure_time": "06:45:00",
+      "stop_id": "BMRCL_006",
+      "stop_sequence": 6
+    }
+  ],
+  "trips": [
+    {
+      "route_id": "PURPLE_LINE",
+      "service_id": "weekday",
+      "trip_id": "PURPLE_001",
+      "trip_headsign": "Whitefield",
+      "direction_id": 0
+    },
+    {
+      "route_id": "GREEN_LINE",
+      "service_id": "weekday",
+      "trip_id": "GREEN_001",
+      "trip_headsign": "Silk Institute",
+      "direction_id": 0
+    }
+  ],
+  "calendar": [
+    {
+      "service_id": "weekday",
+      "monday": 1,
+      "tuesday": 1,
+      "wednesday": 1,
+      "thursday": 1,
+      "friday": 1,
+      "saturday": 1,
+      "sunday": 1,
+      "start_date": "20240101",
+      "end_date": "20241231"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "agency": "BMRCL",
+  "service_name": "Namma Metro",
+  "currency": "INR",
+  "last_updated": "2024-01-01",
+  "fare_type": "distance_based",
+  "fare_slabs": [
+    {"distance_range": "0-2 km", "fare": 10},
+    {"distance_range": "2-5 km", "fare": 15},
+    {"distance_range": "5-8 km", "fare": 20},
+    {"distance_range": "8-12 km", "fare": 25},
+    {"distance_range": "12-16 km", "fare": 30},
+    {"distance_range": "16-20 km", "fare": 35},
+    {"distance_range": "20-25 km", "fare": 40},
+    {"distance_range": "25-30 km", "fare": 45},
+    {"distance_range": "30-35 km", "fare": 50},
+    {"distance_range": "35-40 km", "fare": 55},
+    {"distance_range": "40+ km", "fare": 60}
+  ],
+  "payment_methods": {
+    "token": {
+      "description": "Single journey token",
+      "discount": 0
+    },
+    "smart_card": {
+      "description": "Rechargeable smart card",
+      "discount": 5,
+      "discount_description": "5% discount on all journeys"
+    }
+  },
+  "passes": {
+    "day_pass": {
+      "price": 70.0,
+      "validity": "24 hours",
+      "description": "Unlimited metro travel for one day"
+    }
+  },
+  "group_discounts": [
+    {"group_size": "25-99 people", "discount": "10%"},
+    {"group_size": "100-999 people", "discount": "15%"},
+    {"group_size": "1000+ people", "discount": "20%"}
+  ],
+  "operating_hours": {
+    "weekdays": "5:00 AM - 11:00 PM",
+    "weekends": "5:00 AM - 11:00 PM",
+    "frequency": {
+      "peak_hours": "3-4 minutes",
+      "non_peak_hours": "5-6 minutes"
+    }
+  },
+  "notes": [
+    "Fares are distance-based with 11 fare slabs",
+    "Smart card provides 5% discount on all journeys",
+    "Group discounts available for 25+ passengers",
+    "Day pass allows unlimited travel for 24 hours",
+    "Same station exit within 20 minutes to avoid overstay penalty"
+  ],
+  "fare_examples": {
+    "3km_token": {
+      "calculation": "2-5 km slab = Rs 15",
+      "total": 15.0
+    },
+    "8km_smart_card": {
+      "calculation": "5-8 km slab = Rs 20, with 5% discount = Rs 19",
+      "total": 19.0
+    },
+    "15km_group_50": {
+      "calculation": "12-16 km slab = Rs 30, with 10% group discount = Rs 27",
+      "total": 27.0
+    }
+  },
+  "eco_scores": {
+    "metro": 9.5
+  }
+}

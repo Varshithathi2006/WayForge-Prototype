@@ -1,0 +1,156 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1758365639
+  },
+  "entity": [
+    {
+      "id": "bmrcl_train_purple_1",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365639_0",
+          "route_id": "purple",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.93955723910572,
+          "longitude": 77.61076994013723,
+          "bearing": 139.93907862167183,
+          "speed": 51.49080374459738
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_PURPLE_001",
+        "occupancy_status": "CRUSHED_STANDING_ROOM_ONLY",
+        "current_station": "Swami Vivekananda Road",
+        "next_station": "Garudacharpalya"
+      }
+    },
+    {
+      "id": "bmrcl_train_purple_2",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365639_1",
+          "route_id": "purple",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.978172234910096,
+          "longitude": 77.55230544364125,
+          "bearing": 240.94681814790025,
+          "speed": 38.34743166489918
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_PURPLE_002",
+        "occupancy_status": "STANDING_ROOM_ONLY",
+        "current_station": "Baiyyappanahalli",
+        "next_station": "Magadi Road"
+      }
+    },
+    {
+      "id": "bmrcl_train_purple_3",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_purple_1758365639_2",
+          "route_id": "purple",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 12.997252549560535,
+          "longitude": 77.57478655676648,
+          "bearing": 131.28157001278888,
+          "speed": 70.00939577531905
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_PURPLE_003",
+        "occupancy_status": "STANDING_ROOM_ONLY",
+        "current_station": "Kengeri",
+        "next_station": "Pattanagere"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_4",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365639_0",
+          "route_id": "green",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 13.013230179748545,
+          "longitude": 77.63335403178924,
+          "bearing": 160.86721151367934,
+          "speed": 56.331230424176916
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_GREEN_004",
+        "occupancy_status": "CRUSHED_STANDING_ROOM_ONLY",
+        "current_station": "Nagasandra",
+        "next_station": "Thalaghattapura"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_5",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365639_1",
+          "route_id": "green",
+          "direction_id": 1
+        },
+        "position": {
+          "latitude": 13.01232089273121,
+          "longitude": 77.62631865240797,
+          "bearing": 153.81047958078426,
+          "speed": 60.980158315922935
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_GREEN_005",
+        "occupancy_status": "CRUSHED_STANDING_ROOM_ONLY",
+        "current_station": "Vajarahalli",
+        "next_station": "Konanakunte Cross"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_6",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365639_2",
+          "route_id": "green",
+          "direction_id": 1
+        },
+        "position": {
+          "latitude": 12.949884980101821,
+          "longitude": 77.58098642480216,
+          "bearing": 85.05854283970575,
+          "speed": 32.34321697423404
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_GREEN_006",
+        "occupancy_status": "FEW_SEATS_AVAILABLE",
+        "current_station": "Chickpet",
+        "next_station": "Jayanagar"
+      }
+    },
+    {
+      "id": "bmrcl_train_green_7",
+      "vehicle": {
+        "trip": {
+          "trip_id": "trip_green_1758365639_3",
+          "route_id": "green",
+          "direction_id": 0
+        },
+        "position": {
+          "latitude": 13.004116875429462,
+          "longitude": 77.5763632357215,
+          "bearing": 348.35845573663875,
+          "speed": 48.84344049023353
+        },
+        "timestamp": 1758365639,
+        "vehicle_id": "BMRCL_GREEN_007",
+        "occupancy_status": "STANDING_ROOM_ONLY",
+        "current_station": "Konanakunte Cross",
+        "next_station": "Nagasandra"
+      }
+    }
+  ]
+}
