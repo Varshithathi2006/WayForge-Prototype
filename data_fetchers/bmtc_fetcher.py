@@ -108,11 +108,8 @@ class BMTCDataFetcher:
     @error_handler_decorator("bmtc_fetcher")
     @performance_monitor("bmtc_fetcher")  
     def fetch_live_positions(self) -> Dict[str, Any]:
-        """Fetch live bus positions"""
+        """Fetch live bus positions using real-time APIs and fallback to enhanced simulation"""
         try:
-            # Generate realistic live position data
-            import random
-            
             positions_data = {
                 "header": {
                     "gtfs_realtime_version": "2.0",
@@ -122,39 +119,184 @@ class BMTCDataFetcher:
                 "entity": []
             }
             
-            # Generate positions for different bus types
-            bus_routes = ["201", "500K", "V500C", "AS1", "G4", "356E"]
+            # Try to fetch from real BMTC API first
+            real_data = self._fetch_from_bmtc_api()
+            if real_data and len(real_data) > 0:
+                positions_data["entity"] = real_data
+                logger.info(f"Fetched {len(real_data)} real-time bus positions from BMTC API")
+                return positions_data
             
-            for i, route in enumerate(bus_routes):
-                entity = {
-                    "id": f"bmtc_bus_{route}_{i+1}",
-                    "vehicle": {
-                        "trip": {
-                            "trip_id": f"trip_{route}_{get_current_timestamp()}",
-                            "route_id": route
-                        },
-                        "position": {
-                            "latitude": 12.9716 + random.uniform(-0.1, 0.1),
-                            "longitude": 77.5946 + random.uniform(-0.1, 0.1),
-                            "bearing": random.uniform(0, 360),
-                            "speed": random.uniform(10, 50)
-                        },
-                        "timestamp": int(time.time()),
-                        "vehicle_id": f"KA01F{1000+i}",
-                        "occupancy_status": random.choice([
-                            "EMPTY", "MANY_SEATS_AVAILABLE", 
-                            "FEW_SEATS_AVAILABLE", "STANDING_ROOM_ONLY"
-                        ])
-                    }
-                }
-                positions_data["entity"].append(entity)
+            # Fallback to enhanced simulation with real route patterns
+            logger.info("BMTC API unavailable, using enhanced simulation with real route patterns")
+            positions_data["entity"] = self._generate_enhanced_positions()
             
-            logger.info(f"Generated {len(positions_data['entity'])} live bus positions")
+            logger.info(f"Generated {len(positions_data['entity'])} enhanced live bus positions")
             return positions_data
             
         except Exception as e:
             logger.error(f"Error fetching live positions: {e}")
             return {"header": {"timestamp": int(time.time())}, "entity": [], "error": str(e)}
+    
+    def _fetch_from_bmtc_api(self) -> List[Dict[str, Any]]:
+        """Attempt to fetch real-time data from BMTC APIs"""
+        try:
+            # Try unofficial BMTC API
+            api_url = "http://bmtcmob.hostg.in/api/itsroutewise/details"
+            
+            response = self.session.get(api_url, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                return self._parse_bmtc_api_response(data)
+            
+        except Exception as e:
+            logger.debug(f"BMTC API not available: {e}")
+        
+        return []
+    
+    def _parse_bmtc_api_response(self, api_data: Dict) -> List[Dict[str, Any]]:
+        """Parse BMTC API response into standard format"""
+        entities = []
+        
+        # Parse the API response structure (adjust based on actual API format)
+        if isinstance(api_data, dict) and 'routes' in api_data:
+            for route_data in api_data.get('routes', []):
+                if 'vehicles' in route_data:
+                    for vehicle in route_data['vehicles']:
+                        entity = {
+                            "id": f"bmtc_bus_{vehicle.get('vehicle_id', 'unknown')}",
+                            "vehicle": {
+                                "trip": {
+                                    "trip_id": f"trip_{route_data.get('route_id', 'unknown')}_{int(time.time())}",
+                                    "route_id": route_data.get('route_id', 'unknown')
+                                },
+                                "position": {
+                                    "latitude": float(vehicle.get('latitude', 12.9716)),
+                                    "longitude": float(vehicle.get('longitude', 77.5946)),
+                                    "bearing": float(vehicle.get('bearing', 0)),
+                                    "speed": float(vehicle.get('speed', 0))
+                                },
+                                "timestamp": int(time.time()),
+                                "vehicle_id": vehicle.get('vehicle_id', f"KA01F{len(entities)+1000}"),
+                                "occupancy_status": vehicle.get('occupancy', 'UNKNOWN')
+                            }
+                        }
+                        entities.append(entity)
+        
+        return entities
+    
+    def _generate_enhanced_positions(self) -> List[Dict[str, Any]]:
+        """Generate enhanced realistic positions based on actual Bangalore routes and traffic patterns"""
+        import random
+        from datetime import datetime
+        
+        entities = []
+        
+        # Real Bangalore bus routes with actual route patterns
+        real_routes = [
+            {
+                "route_id": "201", "type": "ordinary",
+                "corridor": "Shivajinagar-Electronic City",
+                "key_stops": [(12.9716, 77.5946), (12.9698, 77.6205), (12.9279, 77.6271), (12.8446, 77.6606)]
+            },
+            {
+                "route_id": "500K", "type": "deluxe", 
+                "corridor": "Majestic-Whitefield",
+                "key_stops": [(12.9762, 77.5993), (12.9716, 77.5946), (12.9698, 77.6205), (12.9698, 77.7499)]
+            },
+            {
+                "route_id": "V500C", "type": "vajra",
+                "corridor": "Majestic-Airport", 
+                "key_stops": [(12.9762, 77.5993), (13.0827, 77.6094), (13.1986, 77.7066)]
+            },
+            {
+                "route_id": "AS1", "type": "ac",
+                "corridor": "Banashankari-Hebbal",
+                "key_stops": [(12.9279, 77.5619), (12.9716, 77.5946), (13.0359, 77.5890)]
+            },
+            {
+                "route_id": "G4", "type": "ordinary",
+                "corridor": "Yeshwantpur-Whitefield",
+                "key_stops": [(13.0359, 77.5542), (12.9716, 77.5946), (12.9698, 77.7499)]
+            },
+            {
+                "route_id": "356E", "type": "deluxe",
+                "corridor": "Banashankari-Marathahalli", 
+                "key_stops": [(12.9279, 77.5619), (12.9716, 77.5946), (12.9591, 77.6974)]
+            }
+        ]
+        
+        current_hour = datetime.now().hour
+        
+        # Adjust bus frequency based on time of day
+        if 7 <= current_hour <= 10 or 17 <= current_hour <= 20:  # Peak hours
+            buses_per_route = 3
+            speed_factor = 0.6  # Slower due to traffic
+        elif 10 < current_hour < 17:  # Day time
+            buses_per_route = 2
+            speed_factor = 0.8
+        else:  # Off-peak
+            buses_per_route = 1
+            speed_factor = 1.0
+        
+        for route_info in real_routes:
+            for bus_num in range(buses_per_route):
+                # Position bus along the route
+                stop_index = random.randint(0, len(route_info["key_stops"]) - 1)
+                base_lat, base_lng = route_info["key_stops"][stop_index]
+                
+                # Add realistic variation around the stop
+                lat_offset = random.uniform(-0.005, 0.005)  # ~500m variation
+                lng_offset = random.uniform(-0.005, 0.005)
+                
+                # Calculate realistic speed based on route type and traffic
+                base_speed = {
+                    "ordinary": 25, "deluxe": 30, "ac": 35, "vajra": 40
+                }.get(route_info["type"], 25)
+                
+                actual_speed = base_speed * speed_factor * random.uniform(0.7, 1.3)
+                
+                entity = {
+                    "id": f"bmtc_bus_{route_info['route_id']}_{bus_num+1}",
+                    "vehicle": {
+                        "trip": {
+                            "trip_id": f"trip_{route_info['route_id']}_{get_current_timestamp()}_{bus_num}",
+                            "route_id": route_info['route_id']
+                        },
+                        "position": {
+                            "latitude": base_lat + lat_offset,
+                            "longitude": base_lng + lng_offset,
+                            "bearing": random.uniform(0, 360),
+                            "speed": actual_speed
+                        },
+                        "timestamp": int(time.time()),
+                        "vehicle_id": f"KA01F{1000 + len(entities)}",
+                        "occupancy_status": self._get_realistic_occupancy(current_hour, route_info["type"]),
+                        "route_type": route_info["type"],
+                        "corridor": route_info["corridor"]
+                    }
+                }
+                entities.append(entity)
+        
+        return entities
+    
+    def _get_realistic_occupancy(self, hour: int, bus_type: str) -> str:
+        """Get realistic occupancy based on time and bus type"""
+        import random
+        
+        if 7 <= hour <= 10 or 17 <= hour <= 20:  # Peak hours
+            return random.choice([
+                "STANDING_ROOM_ONLY", "FEW_SEATS_AVAILABLE", 
+                "STANDING_ROOM_ONLY", "FEW_SEATS_AVAILABLE"
+            ])
+        elif 10 < hour < 17:  # Day time
+            return random.choice([
+                "MANY_SEATS_AVAILABLE", "FEW_SEATS_AVAILABLE", 
+                "MANY_SEATS_AVAILABLE"
+            ])
+        else:  # Off-peak
+            return random.choice([
+                "EMPTY", "MANY_SEATS_AVAILABLE", "MANY_SEATS_AVAILABLE"
+            ])
     
     @error_handler_decorator("bmtc_fetcher")
     def calculate_fare(self, distance_km: float, bus_type: str = "ordinary", 
@@ -270,6 +412,11 @@ class BMTCDataFetcher:
             ]
         }
     
+    @error_handler_decorator("bmtc_fetcher")
+    def get_live_bus_data(self) -> Dict[str, Any]:
+        """Get live bus data - wrapper for fetch_live_positions"""
+        return self.fetch_live_positions()
+
     @error_handler_decorator("bmtc_fetcher")
     def save_real_data(self, data_dir: str = "data"):
         """Save fetched real data to files"""
